@@ -23,7 +23,7 @@ window.onload = function() {
 
   
   function showInitialContent() {
-    picA.setAttribute("src", "./css/i_map0.png");
+    picA.setAttribute("src", "./img/i_map0.png");
     picNoA.innerHTML = "0";
     content1.style.display = "none";
     content2.style.display = "none";
@@ -56,20 +56,20 @@ window.onload = function() {
   showInitialContent();
   
   sectionA.addEventListener("click", function() {
-    picA.setAttribute("src", "./css/i_ex1.png");
+    picA.setAttribute("src", "./img/i_ex1.png");
     picNoA.innerHTML = "1";
     showContent(1);
   });
 
   
   sectionB.addEventListener("click", function() {
-    picB.setAttribute("src", "./css/i_ex2.png");
+    picB.setAttribute("src", "./img/i_ex2.png");
     picNoB.innerHTML = "2";
     showContent(2);
   });
 
   sectionC.addEventListener("click", function() {
-    picC.setAttribute("src", "./css/i_ex3.png");
+    picC.setAttribute("src", "./img/i_ex3.png");
     picNoC.innerHTML = "3";
     showContent(3);
   });
