@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>댓글</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>댓글 작성하기</h1>
+    <ul class="comments"></ul>
+    <form>
+      <textarea class="post"></textarea>
+      <br>
+      <button class="submit" type="button" disabled>제출</button>
+    </form>
+
+    <script>
+      const commentInput = document.querySelector('.post');
+      const submitButton = document.querySelector('.submit');
+      const commentsList = document.querySelector('.comments');
+
+      function enterComment() {
+        const newComment = document.createElement('li');
+        const comment = `
+          <b>dltjsgho</b> 
+          ${commentInput.value} 
+          <span class="commentLikes"></span>
+          <span class="deleted">x</span>
+        `;
+        newComment.innerHTML = comment;
+        commentsList.appendChild(newComment);
+        commentInput.value = '';
+
+        // 하트 아이콘 추가
+        const commentLikes = newComment.querySelector('.commentLikes');
+        const heartIcon = document.createElement('img');
+        heartIcon.setAttribute('src', '../img/heart.png');
+        commentLikes.appendChild(heartIcon);
+
+        // 댓글 삭제
+        const deleteButton = newComment.querySelector('.deleted');
+        deleteButton.addEventListener('click', () => {
+          newComment.remove();
+        });
+
+        // 새로 작성된 댓글 저장
+        saveComment(comment);
+      }
+
+      commentInput.addEventListener('input', () => {
+        if (commentInput.value.trim().length > 0) {
+          submitButton.disabled = false;
+        } else {
+          submitButton.disabled = true;
+        }
+      });
+
+      submitButton.addEventListener('click', enterComment);
+
+      function saveComment(comment) {
+        console.log('댓글 저장:', comment);
+
+      }
+
+      function deleteComment(comment) {
+        console.log('댓글 삭제:', comment);
+
+      }
+    </script>
+  </body>
+</html>

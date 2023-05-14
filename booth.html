@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./booth.css" rel="stylesheet">
+    <script src="./booth.js"></script>
+    <title>sku_festival</title>
+</head>
+
+<body>
+    <div class="bg_color">
+        <div class="nav_bar">
+            <button class="nav_button" onclick="location.href = './main.html'">
+                HOME
+            </button>
+            <button class="nav_button" onclick="location.href = './booth_timetable.html'">
+                축제안내
+            </button>
+            <button class="nav_button" onclick="location.href = './booth.html'">
+                부스안내
+            </button>
+            <button class="nav_button" onclick="location.href = './about.html'">
+                ABOUT
+            </button>
+        </div>
+
+        <div class="booth_festival">
+            <section class="booth_table">
+                <button class="booth_time_name">
+                    <a href="./booth.html">
+                        부스 소개
+                    </a>
+                </button>
+                <button class="./booth_time_table" ,a href="./booth.html">
+                    <a href="./booth_timetable.html">
+                        공연 타임테이블
+                    </a>
+                </button>
+            </section>
+        </div>
+
+        <div class="time_table_box">
+            <div class="tab">
+                <input type="radio" id="sectionA" name="tab-group">
+                <label for="sectionA" onclick="showContent(1)">sectionA</label>
+
+                <input type="radio" id="sectionB" name="tab-group">
+                <label for="sectionB" onclick="showContent(2)">sectionB</label>
+
+                <input type="radio" id="sectionC" name="tab-group">
+                <label for="sectionC" onclick="showContent(3)">sectionC</label>
+            </div>
+        </div>
+
+
+        <div class="all_time_table_box">
+
+
+            <div id="content-0">
+                <img class="pic pic-sectionX" src="./i_map0.png" />
+                <div class="picNo picNo-sectionX"></div>
+                <div id="section-0">Content for tab 0</div>
+                <div id="section-0">Content for tab 0</div>
+
+            </div>
+
+            <div id="content-1">
+
+
+                <img class="pic pic-sectionA" src="./i_ex1.png" />
+                <div class="picNo picNo-sectionA"></div>
+                <div id="section-1">
+                    <div class="time_table_box">
+                        <div class="time_table_box_in">
+                            <div class="real_time_table">
+                                <div class="real_time_table_in">
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            1
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:00 ~ 13:30
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            2
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:30 ~ 14:00
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div id="content-2">
+
+                <img class="pic pic-sectionB" src="./i_ex2.png" />
+                <div class="picNo picNo-sectionB"></div>
+                <div id="section-2">
+                    <div class="time_table_box">
+                        <div class="time_table_box_in">
+                            <div class="real_time_table">
+                                <div class="real_time_table_in">
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            1
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:00 ~ 13:30
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            2
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:30 ~ 14:00
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>                   
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            2
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:30 ~ 14:00
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            2
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:30 ~ 14:00
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="time_table_list">
+                                        <div class="list_num">
+                                            2
+                                        </div>
+                                        <div class="list_logo_name_box">
+                                            <div class="list_logo">
+                                                <!-- <img src = "lion.png" style="width: 30px" height="30px"> -->
+                                            </div>
+                                            <div class="list_time_name">
+                                                <div class="list_time">
+                                                    13:30 ~ 14:00
+                                                </div>
+                                                <div class="list_name">
+                                                    멋쟁이 사자처럼
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div id="content-3">
+                <img class="pic pic-sectionC" src="./i_ex3.png" />
+                <div class="picNo picNo-sectionC"></div>
+                <div id="section-3">Content for tab 3</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="i_bg_scon">
+
+            <img src="i_bg_scon.png">
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
