@@ -1,3 +1,10 @@
+window.addEventListener('load', function() {
+  var elements = document.querySelectorAll('*');
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].style.visibility = 'visible';
+  }
+});
+
 window.onload = function() {
   // 이 곳에 모든 HTML 요소가 로드된 후 실행할 코드를 작성합니다.
   var sectionA = document.getElementById("sectionA");
