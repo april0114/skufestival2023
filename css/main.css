@@ -1,3 +1,15 @@
+.bg
+{
+background-image: url('../img/i_bg.png');
+background-repeat: no-repeat;
+background-position: center;
+background-color: navy;
+background-attachment: fixed;
+width: 428px;
+height: 1080px;
+}
+
+
 .lion {
   display: flex;
   flex-direction: column;
@@ -60,26 +72,26 @@
   text-align: center;
 }
 
-.nav_bar{
+.nav_bar {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
   box-sizing: border-box;
   margin: 24px 0px;
   flex-direction: row;
-  gap: 32px;
+  gap: 0px;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   min-height: 10vh;
-  background: #ECF6EC;
+  background: transparent;
 }
-
 .nav_button {
-  /* width: 80px; */
+  width: 100px; 
   height: 50px;
-  color: #000000;
+  color: white;
   /* font-family: ; */
-  font-size: 0.8rem;
+  font-size: 20px;
   font-weight: 500;
   background-color: transparent;
   background-position: center center;
@@ -90,14 +102,6 @@
   transition: border-bottom 2s ease 0s;
 }
 
-.bg {
-  position: relative;
-  width: 428px;
-  min-height: 100vh;
-  margin: 0 auto;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 .bg_color {
   position: relative;
@@ -247,7 +251,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 10px;
 
   position: absolute;
   width: 156px;
