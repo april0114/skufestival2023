@@ -55,14 +55,12 @@
 
 .section_box {
   box-sizing: border-box;
-  margin: 15px;
+  margin: 20px;
   flex-direction: row;
   max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  border: 10px;
   font: inherit;
   vertical-align: baseline;
 }
@@ -77,6 +75,7 @@
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: transparent;
 
 }
 .tab > * {
@@ -85,7 +84,6 @@ margin-right: 10px;
 }
 .section_box .tab > div {
 
-    margin: 0px;
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5;
@@ -100,16 +98,34 @@ margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  color: white;
   background: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin: 0, 10px;
-
+  margin-right: 30px;
 
 }
+label {
+  color: white;
+}
+
+.color_sectionA_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  opacity: 50%; 
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 30px;
+  color: white;
+}
+
+
 .sectionA_2
 {
   display: flex;
@@ -121,33 +137,10 @@ margin-right: 10px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
+  margin-left: 30px;
 
-}
 
-.booth_festival {
-  flex-basis: 100%;
-  flex-grow: 0;
-  max-width: 100%;
 
-  box-sizing: border-box;
-  margin: 0px;
-  flex-direction: row;
-  flex-basis: 100%;
-  -webkit-box-flex: 0;
-  flex-grow: 0;
-  max-width: 100%;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  min-height: 15vh;
-
-  padding: 0px;
-  border: 0px;
-  font: inherit;
-  vertical-align: baseline;
-  
 }
 
 .i_map
@@ -192,7 +185,7 @@ margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 15vh;
+  min-height: 7vh;
   font: inherit;
 }
 
@@ -208,7 +201,7 @@ margin-right: 10px;
 
 .booth_time_name {
   width: 50%;
-  height: 90%;
+  height: 100%;
   background-color: transparent;
   border: none;
   border-radius: 15px;
@@ -295,15 +288,25 @@ margin-right: 10px;
   display: flex;
   cursor: pointer;
   border-top: 10px #040c4b;
-  border-bottom: 10px #040c4b;
+  border-bottom: 10px black;
+  border-color: black;
+  border-bottom: 1px solid #000;
 }
+
 
 .list_num {
   width: 40px;
   height: 35px;
   line-height: 25px;
   display: flex;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 6px 10px;
+  background-color: palegreen;
+  border-radius: 50%;
+  opacity: 80%;
+  justify-content: center;
+  align-items: center; /* 세로 중앙 정렬 */
+
+
 }
 
 
@@ -323,6 +326,8 @@ margin-right: 10px;
   font-size: 18px;
   text-align: left;
   color: #000000;
+  margin-left: 10px;
+  
 }
 
 .list_name > a{
@@ -334,7 +339,7 @@ margin-right: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 20px;
   /* position: absolute;
   width: 156px;
   height: 170px;

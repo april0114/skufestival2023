@@ -4,6 +4,7 @@ window.addEventListener('load', function() {
     elements[i].style.visibility = 'visible';
   }
 });
+const myButton = document.getElementById("myButton");
 
 window.onload = function() {
   // 이 곳에 모든 HTML 요소가 로드된 후 실행할 코드를 작성합니다.
