@@ -94,13 +94,14 @@ margin-right: 10px;
     text-align: center;
 
 }
+
 .sectionA_1
 {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  background: rgba(160, 160, 160, 0.39);
+  background: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -218,6 +219,14 @@ margin-right: 10px;
   transition: all 0.2s ease 0s;
   box-sizing: border-box;
 }
+.booth_time_name > a{
+  text-decoration: none;
+  color: black;
+}
+.booth_time_table > a{
+  text-decoration: none;
+  color: black;
+}
 
 .booth_time_table {
   width: 50%;
@@ -290,7 +299,7 @@ margin-right: 10px;
 }
 
 .list_num {
-  width: 35px;
+  width: 40px;
   height: 35px;
   line-height: 25px;
   display: flex;
@@ -303,17 +312,22 @@ margin-right: 10px;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  width: 240px;
+  width: 260px;
   height: 34px;
 }
 
 
 
 .list_name {
-  width: 150px;
-  font-size: 12px;
-  text-align: center;
+  width: 200px;
+  font-size: 18px;
+  text-align: left;
   color: #000000;
+}
+
+.list_name > a{
+  text-decoration: none;
+  color: black;
 }
 
 .i_bg_scon {
