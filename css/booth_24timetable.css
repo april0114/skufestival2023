@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     min-height: 10vh;
+    font-family: 'BMJUA';
 }
 
 .nav_button {
@@ -47,6 +48,7 @@
     background-size: contain;
     border: transparent;
     cursor: pointer;
+    font-family: 'BMJUA';
 }
 
 .date_div {

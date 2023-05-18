@@ -35,6 +35,7 @@
   -webkit-box-align: center;
   align-items: center;
   min-height: 10vh;
+  font-family: 'BMJUA';
 }
 
 .nav_button {
@@ -49,6 +50,7 @@
   background-size: contain;
   border: none;
   cursor: pointer;
+  font-family: 'BMJUA';
   transition: border-bottom 2s ease 0s;
 }
 
