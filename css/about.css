@@ -65,14 +65,11 @@
 
 .about {
     padding-top: 20px;
-    font-style: normal;
-    font-weight: 500;
     font-size: 15px;
     line-height: 15px;
     text-align: center;
     letter-spacing: 0.1em;
     color: #000000;
-    font-family: 'BMJUA';
 }
 
 .about_intro {

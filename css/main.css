@@ -48,6 +48,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  text-align: center;
+  padding-top: 130px;
 }
 .button_set {
   display: flex;
@@ -64,6 +66,7 @@
   width: 156px;
   height: 200px;
   background-color: transparent;
+  top: 100px;
   margin-bottom: 150px;
   margin-top: 130px;
 }
