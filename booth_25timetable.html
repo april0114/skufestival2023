@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/booth_timetable.css" rel="stylesheet">
+    <link href="./css/booth_25timetable.css" rel="stylesheet">
     <title>sku_festival</title>
 </head>
 
@@ -15,7 +15,7 @@
             <button class="nav_button" onclick="location.href = './index.html'">
                 HOME
             </button>
-            <button class="nav_button" onclick="location.href = './booth_timetable.html'">
+            <button class="nav_button" onclick="location.href = './booth_24timetable.html'" style="border-bottom: 2px solid #ffffff;">
                 축제안내
             </button>
             <button class="nav_button" onclick="location.href = './booth.html'">
@@ -27,35 +27,35 @@
         </div>
 
         <div class="date_div">
-            <section class="first_day">
+            <button class="first_day" onclick="location.href = './booth_24timetable.html'">
                 <p class="first_dday">
                     수
                     <br>
                     24
                 </p>
-            </section>
-            <section class="second_day">
+            </button>
+            <button class="second_day" onclick="location.href = './booth_25timetable.html'">
                 <p class="second_dday">
                     목
                     <br>
                     25
                 </p>
-            </section>
-            <section class="third_day">
+            </button>
+            <button class="third_day" onclick="location.href = './booth_26timetable.html'">
                 <p class="third_dday">
                     금
                     <br>
                     26
                 </p>
-            </section>
+            </button>
         </div>
         <div class="booth_box">
             <div class="booth_festival">
                 <section class="booth_table">
-                    <button class="booth_time_name">
+                    <button class="booth_time_name" onclick="location.href = './booth_25timetable.html'">
                         부스 위치
                     </button>
-                    <button class="booth_time_table">
+                    <button class="booth_time_table" onclick="location.href = './booth.html'">
                         공연 시간
                     </button>
                 </section>
