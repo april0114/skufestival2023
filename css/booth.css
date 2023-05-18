@@ -4,6 +4,9 @@
   font-weight: normal;
   font-style: normal;
 }
+body{
+  margin: none;
+}
 
 .bg_color {
   position: relative;
@@ -50,8 +53,8 @@
   background-size: contain;
   border: none;
   cursor: pointer;
-  font-family: 'BMJUA';
   transition: border-bottom 2s ease 0s;
+  font-family: 'BMJUA';
 }
 
 
@@ -194,7 +197,7 @@ margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 7vh;
+  min-height: 13vh;
   font: inherit;
 }
 
