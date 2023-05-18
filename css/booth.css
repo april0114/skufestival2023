@@ -99,24 +99,20 @@ margin-right: 10px;
   justify-content: center;
   align-items: center;
   color: white;
-  background: transparent;
+  background:transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 30px;
 
 }
-label {
-  color: white;
-}
+
 
 .color_sectionA_1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
-  opacity: 50%; 
+  background: #C2E3BD;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -131,16 +127,27 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  color: white ;
   background-color: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin-left: 30px;
 
 
 
+}
+.color_sectionA_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #C2E3BD;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 30px;
+  color: white;
 }
 
 .i_map
@@ -275,7 +282,7 @@ label {
   font: inherit;
   vertical-align: baseline;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .real_time_table_in {
@@ -288,7 +295,6 @@ label {
   display: flex;
   cursor: pointer;
   border-top: 10px #040c4b;
-  border-bottom: 10px black;
   border-color: black;
   border-bottom: 1px solid #000;
 }
@@ -314,7 +320,6 @@ label {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
   width: 260px;
   height: 34px;
 }
@@ -322,7 +327,7 @@ label {
 
 
 .list_name {
-  width: 200px;
+  width: 250px;
   font-size: 18px;
   text-align: left;
   color: #000000;
@@ -339,11 +344,12 @@ label {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   padding: 20px;
+}
   /* position: absolute;
   width: 156px;
   height: 170px;
   left: calc(50% - 156px/2 - 8px);
-  top: 1000px;
-  margin-top: 130px; */
-}
+  top: 1000px;*/
+ 
