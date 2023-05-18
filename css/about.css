@@ -19,7 +19,7 @@
 .bg {
     position: relative;
     background-image: url(../img/i_main_bg.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: top center;
     align-items: center;
     justify-content: center;
