@@ -5,8 +5,8 @@
   font-style: normal;
 }
 .bg_color {
-  background: #040c4b;
   margin: 0 auto;
+  background: #040c4b;
   font-family: 'BMJUA';
 }
 .bg {
@@ -42,21 +42,30 @@
   border: none;
   cursor: pointer;
   transition: border-bottom 2s ease 0s;
-  font-family: 'BMJUA';
 }
 .main_set{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 .button_set {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  margin-bottom: 50px;
+}
+.sku_festival_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 367px;
+  height: 400px;
+  background-color: transparent;
+  margin-top: 50px;  
+  text-align: center;
 }
 .main_button {
   display: flex;
@@ -74,21 +83,9 @@
   animation-duration: 3s;
   animation-delay: 1s;
 }
-.sku_festival_img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  width: 367px;
-  height: 400px;
-  background-color: transparent;
-  margin-top: 100px;
-}
 .skon_festival_color {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 0px;
-  width: 130px;
-  height: 170px;
+  margin-bottom: 100px;
+  justify-content: center;
 }
