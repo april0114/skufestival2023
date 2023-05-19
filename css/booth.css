@@ -21,7 +21,7 @@ body{
 
 .bg {
   position: relative;
-  background-image: url(../img/i_main_bg.png);
+  background-image: url(../img/i_main_bg.svg);
   /* background-repeat: no-repeat; */
   background-position: top center;
   align-items: center;
