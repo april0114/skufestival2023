@@ -4,6 +4,9 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  font-family: 'BMJUA';
+}
 
 .bg_color {
   margin: 0 auto;
@@ -61,7 +64,6 @@
 span {
   width: 48px;
   height: 24px;
-  font-family: Inter;
   font-size: 12.8px;
   font-weight: 500;
   font-stretch: normal;
@@ -134,7 +136,6 @@ span {
   height: 25px;
   top: 0;
   left: 10%;
-  font-family: Inter;
   font-weight: bold;
   font-size: 10px;
   font-stretch: normal;
@@ -153,7 +154,6 @@ span {
   top: 25px;
   left: 33px;
   /* margin: 0 85px 1px 0; */
-  font-family: Inter;
   font-size: 19.5px;
   font-weight: bold;
   font-stretch: normal;
@@ -171,7 +171,6 @@ span {
   top: 55px;
   left: 33px;
   margin: 1px 83px 4px 0;
-  font-family: Inter;
   font-size: 12px;
   font-weight: 600;
   font-stretch: normal;
@@ -188,8 +187,7 @@ span {
   height: 58px;
   top: 73px;
   left: 33px;
-  margin: 4px 0 10px;
-  font-family: Inter;
+  margin: 14px 0 10px;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -207,7 +205,6 @@ span {
   top: 150px;
   left: 33px;
   /* margin: 10px 32px 0 0; */
-  font-family: Inter;
   font-size: 10px;
   font-weight: normal;
   font-stretch: normal;
@@ -230,7 +227,6 @@ span {
   height: 42.3px;
   left: 35%;
   top: 2%;
-  font-family: Inter;
   font-size: 25px;
   font-weight: normal;
   font-stretch: normal;
@@ -269,6 +265,7 @@ a:-webkit-any-link {
   position: relative;
   top: 12%;
   left: 2%;
+  width: 200px; 
 }
 
 .booth_bg_scon {
