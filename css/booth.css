@@ -175,6 +175,8 @@ margin-right: 10px;
   align-items: center;
   margin: 0 auto;
   padding: 20px;
+  height: 400px;
+  width: 350px;
 }
 
 .content-0
@@ -184,7 +186,10 @@ margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
+
+
 
 .booth_num {
   width: 20px;
