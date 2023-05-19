@@ -48,6 +48,16 @@
   transition: border-bottom 2s ease 0s;
 }
 
+.day_button {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  margin : 0;
+  }
+
 span {
   width: 48px;
   height: 24px;
@@ -245,6 +255,7 @@ a:-webkit-any-link {
   text-align: left;
   color: #5caa4b;
 }
+
 
 #line {
   border-left: solid #85c779;
