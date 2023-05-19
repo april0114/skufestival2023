@@ -4,43 +4,30 @@
   font-weight: normal;
   font-style: normal;
 }
-body{
-  margin: none;
-}
-
 .bg_color {
-  position: relative;
   margin: 0 auto;
-  width: 100%;
-  height: 100%;
   background: #040c4b no-repeat center center fixed;
-  background-size: cover;
-  background-attachment: fixed;
   font-family: 'BMJUA';
 }
-
 .bg {
   position: relative;
-  background-image: url(../img/i_main_bg.svg);
-  /* background-repeat: no-repeat; */
+  background-image: url(../img/i_main_bg.png);
+  background-repeat: no-repeat;
   background-position: top center;
-  align-items: center;
-  justify-content: center;
-}
-
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0px;
+} 
 .nav_bar {
   box-sizing: border-box;
   flex-direction: row;
   gap: 25px;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
   min-height: 10vh;
   font-family: 'BMJUA';
 }
-
 .nav_button {
   height: 50px;
   color: #ffffff;
