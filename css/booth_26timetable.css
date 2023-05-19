@@ -68,21 +68,22 @@
     vertical-align: baseline;
 }
 
-.first_day {
+.day_guest {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    background-color: transparent;
     width: 70px;
     height: 70px;
-    border-radius: 50%;
+    border-radius: 70%;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;
     border: transparent;
 }
-
-.first_dday {
+.day_guest_txt {
     margin: 0px;
     font-weight: 400;
     font-size: 15px;
