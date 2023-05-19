@@ -54,7 +54,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
 }
 .sku_festival_img {
   display: flex;
@@ -87,4 +87,5 @@
   display: flex;
   padding: 0px;
   justify-content: center;
+  margin-bottom: 30px;
 }
