@@ -98,7 +98,6 @@ button {
   height: 187.16px;
   margin: 0 auto;
   /* 가운데 정렬 */
-  box-shadow: 5px 5px 5px 5px rgb(215, 213, 213);
   background-image: linear-gradient(to right, #85c779 5%, #f4f4f4 5%);
   border-radius: 8%;
   margin-top: 5vh;
@@ -128,7 +127,7 @@ button {
 
 #name1 {
   position: absolute;
-  width: 70px;
+  width: 75px;
   height: 25px;
   top: 0;
   left: 10%;
@@ -144,12 +143,12 @@ button {
 
 #name2 {
   position: absolute;
-  width: 180px;
+  width: 190px;
   height: 24px;
   top: 25px;
   left: 33px;
   /* margin: 0 85px 1px 0; */
-  font-size: 19.5px;
+  font-size: 22.5px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -175,6 +174,14 @@ button {
   text-align: left;
   color: #5caa4b;
 }
+.insta img{
+  width: 30px;
+  height: 30px;
+  right: 40px;
+  position: absolute;
+  bottom: 10px;
+}
+
 
 #intro {
   position: absolute;
@@ -248,15 +255,7 @@ a:-webkit-any-link {
   color: #5caa4b;
 }
 
-#line {
-  border-left: solid #85c779;
-  height: 340px;
-  top: 62%;
-  position: absolute;
-  /* 자식 요소를 절대적인 위치로 설정 */
-  transform: translate(-50%, -50%);
-  /* 가운데 정렬 */
-}
+
 
 .booth_bg_scon {
   display: flex;
