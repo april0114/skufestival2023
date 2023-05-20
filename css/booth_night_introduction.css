@@ -123,7 +123,7 @@
   
   #name1 {
     position: absolute;
-    width: 70px;
+    width: 85px;
     height: 25px;
     top: 0;
     left: 10%;
@@ -140,7 +140,7 @@
   
   #name2 {
     position: absolute;
-    width: 180px;
+    width: 195px;
     height: 24px;
     top: 25px;
     left: 33px;
@@ -254,6 +254,7 @@
     position: relative;
     top: 12%;
     left: 2%;
+    color: white;
   }
   
   .booth_bg_scon {
