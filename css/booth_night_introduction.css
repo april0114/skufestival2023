@@ -52,11 +52,25 @@
     transition: border-bottom 2s ease 0s;
   }
   
-  span {
+  .day_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15vh;
+    margin-left:170px; /* 오른쪽으로 고정 */
+    margin-right: auto;
+  }
+  
+  button{
+    background-color: transparent;
+    border: none;
+  }
+  
+  #span {
     width: 48px;
     height: 24px;
- font-family: 'BMJUA';
-     font-size: 12.8px;
+    font-size: 12.8px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -66,16 +80,25 @@
     color: #000;
   }
   
+  .all_department {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* 상대적인 위치로 설정 */
+  }
   .department {
-    position: relative;
-    left: 50%;
-    top: 15vh;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 331.3px;
     height: 187.16px;
+    margin: 0 auto; /* 가운데 정렬 */
     box-shadow: 5px 5px 5px 5px rgb(215, 213, 213);
     background-image: linear-gradient(to right, #85c779 5%, #f4f4f4 5%);
     border-radius: 8%;
+    margin-top: 5vh;
+    position: relative; /* 상대적인 위치로 설정 */
   }
   
   .box {
@@ -98,26 +121,33 @@
     object-fit: cover;
   }
   
+  .all_menu {
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* 자식 요소의 상대적인 위치를 유지하기 위해 설정 */
+  
+    }
   .outmenu {
-    position: relative;
     width: 331px;
     height: 410.48px;
-    left: 50%;
-    top: 36vh;
-    transform: translate(-50%, -50%);
-    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
     border-radius: 20px;
-    background-color: #85c779;  }
+    background-color: #85c779;
+    margin: 0 auto;
+    margin-top: 6vh;
+  }
   
   .inmenu {
-    position: absolute;
     width: 304px;
     height: 381px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    flex-grow: 0;
     border-radius: 13px;
+    position: inherit; /* 자식 요소를 절대적인 위치로 설정 */
     background-color: #636363;
   }
   
@@ -216,8 +246,8 @@
     position: absolute;
     width: 100.5px;
     height: 42.3px;
-    left: 35%;
-    top: 2%;
+    left: 48%;
+    top: 14%;
     font-size: 25px;
     font-weight: normal;
     font-stretch: normal;

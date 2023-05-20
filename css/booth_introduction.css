@@ -251,12 +251,18 @@ button{
 }
 
 #menu {
-  position: inherit;
-  width: 100.5px;
-  height: 42.3px;
-
-  font-size: 25px;
-  color: #5caa4b;
+    position: absolute;
+    width: 100.5px;
+    height: 42.3px;
+    left: 48%;
+    top: 14%;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5caa4b;
 }
 a:-webkit-any-link {
   position: absolute;
