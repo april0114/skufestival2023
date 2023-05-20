@@ -43,7 +43,12 @@
   transition: border-bottom 2s ease 0s;
   font-family: 'BMJUA';
 }
-
+.booth_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .section_box {
   box-sizing: border-box;
@@ -75,14 +80,12 @@ margin-left: 10px;
 margin-right: 10px;
 }
 .section_box .tab > div {
-
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.00938em;
     font-family: 'BMJUA';
     text-align: center;
-
 }
 
 .sectionA_1
@@ -96,9 +99,8 @@ margin-right: 10px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-
+  border: 1px solid;
 }
-
 
 .color_sectionA_1 {
   display: flex;
@@ -125,9 +127,7 @@ margin-right: 10px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-
-
-
+  border: 1px solid;
 }
 .color_sectionA_2 {
   display: flex;
@@ -175,8 +175,6 @@ margin-right: 10px;
   align-items: center;
  
 }
-
-
 
 .booth_num {
   width: 20px;
@@ -288,14 +286,16 @@ margin-right: 10px;
 }
 
 .time_table_list {
-  line-height: 55px;
   display: flex;
   cursor: pointer;
   border-top: 10px #040c4b;
   border-color: black;
   border-bottom: 1px solid #000;
 }
-
+.list_logo_box_name{
+  align-items: center;
+  text-align: center;
+}
 
 .list_num {
   width: 30px;
@@ -308,28 +308,22 @@ margin-right: 10px;
   opacity: 80%;
   justify-content: center;
   align-items: center; /* 세로 중앙 정렬 */
-
-
 }
-
 
 .list_time_name {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   width: 260px;
-  height: 34px;
+  height: 100%;
 }
-
-
 
 .list_name {
   width: 250px;
-  font-size: 18px;
+  font-size: 12px;
   text-align: left;
   color: #000000;
   margin-left: 10px;
-  
 }
 
 .list_name > a{
@@ -340,8 +334,10 @@ margin-right: 10px;
 .booth_bg_scon {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: start;
   padding: 0px;
-  margin-right: -3%;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 5%;
 }
- 
