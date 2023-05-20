@@ -52,13 +52,13 @@
 }
 
 .day_button {
-  position: absolute;
-  right: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 0;
-  margin : 0;
+  align-items: center;
+
+  justify-content: center;
+  padding: 0px;
+  margin-left: 35vh; /* 오른쪽으로 이동 */
   }
 
 span {
@@ -73,18 +73,29 @@ span {
   text-align: center;
   color: #000;
 }
+.all_department {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* 상대적인 위치로 설정 */
+}
 
 .department {
-  position: relative;
-  left: 50%;
-  top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform: translate(-50%, -50%);
   width: 331.3px;
   height: 187.16px;
+  margin: 0 auto; /* 가운데 정렬 */
   box-shadow: 5px 5px 5px 5px rgb(215, 213, 213);
   background-image: linear-gradient(to right, #85c779 5%, #f4f4f4 5%);
   border-radius: 8%;
+  margin-top: 15vh;
+  position: relative; /* 상대적인 위치로 설정 */
 }
+
 
 .box {
   position: absolute;
@@ -106,28 +117,38 @@ span {
   object-fit: cover;
 }
 
+
 .outmenu {
-  position: relative;
   width: 331px;
   height: 410.48px;
-  left: 50%;
-  top: 36vh;
-  transform: translate(-50%, -50%);
-  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
   border-radius: 20px;
   background-color: #85c779;
-}
+  margin: 0 auto;
+  margin-top: 10vh;
+
+  }
+  
+  .all_menu {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
 
 .inmenu {
-  position: absolute;
+
   width: 304px;
   height: 381px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  flex-grow: 0;
   border-radius: 13px;
   background-color: #fff;
+  position: inherit; /* 자식 요소를 절대적인 위치로 설정 */
+
+
 }
 
 #name1 {
@@ -222,17 +243,11 @@ span {
 }
 
 #menu {
-  position: absolute;
+  position: inherit;
   width: 100.5px;
   height: 42.3px;
-  left: 35%;
-  top: 3%;
+
   font-size: 25px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #5caa4b;
 }
 a:-webkit-any-link {
@@ -255,7 +270,7 @@ a:-webkit-any-link {
 
 #line {
   border-left: solid #85c779;
-  height: 85%;
+  height: 50%;
   left: 50%;
   top: 13%;
   position: absolute;
