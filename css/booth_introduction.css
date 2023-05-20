@@ -251,7 +251,6 @@ a:-webkit-any-link {
 #line {
   border-left: solid #85c779;
   height: 340px;
-  left: 51%;
   top: 62%;
   position: absolute;
   /* 자식 요소를 절대적인 위치로 설정 */
@@ -302,8 +301,9 @@ a:-webkit-any-link {
   font-size: 25px;
   text-align: center;
   color: #5caa4b;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 20px;
+  
 }
 
 .manu_in {
@@ -340,4 +340,5 @@ a:-webkit-any-link {
 }
 .menu_name_price {
   margin-bottom: 10px;
+  width :120px;
 }
