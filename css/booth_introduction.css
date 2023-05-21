@@ -160,7 +160,7 @@ button {
 
 #hash {
   position: absolute;
-  width: 135px;
+  width: 160px;
   height: 16px;
   top: 55px;
   left: 33px;
@@ -267,7 +267,7 @@ a:-webkit-any-link {
 
 .outmenu {
   width: 331px;
-  height: 410.48px;
+  height: 280px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,12 +275,12 @@ a:-webkit-any-link {
   border-radius: 20px;
   background-color: #85c779;
   margin: 0 auto;
-  margin-top: 6vh;
+  margin-top: 4vh;
 }
 
 .inmenu {
   width: 304px;
-  height: 381px;
+  height: 250px;
   border-radius: 13px;
   background-color: #fff;
   position: inherit;
