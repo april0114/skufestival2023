@@ -127,7 +127,7 @@ button {
 
 #name1 {
   position: absolute;
-  width: 75px;
+  width: 85px;
   height: 25px;
   top: 0;
   left: 10%;
@@ -280,7 +280,7 @@ a:-webkit-any-link {
 
 .inmenu {
   width: 304px;
-  height: 250px;
+  height: 260px;
   border-radius: 13px;
   background-color: #fff;
   position: inherit;
@@ -301,7 +301,7 @@ a:-webkit-any-link {
   text-align: center;
   color: #5caa4b;
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   
 }
 
@@ -325,7 +325,7 @@ a:-webkit-any-link {
   display: flex;
   flex-direction: column;
   font: inherit;
-  background-color: #ffffff;
+  background-color: transparent;
   border-radius: 15px;
   margin-right: 20px;
 }
@@ -334,10 +334,10 @@ a:-webkit-any-link {
   flex-direction: column;
   margin-left: 20px;
   font: inherit;
-  background-color: #ffffff;
+  background-color: transparent;
   border-radius: 15px;
 }
 .menu_name_price {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   width :120px;
 }

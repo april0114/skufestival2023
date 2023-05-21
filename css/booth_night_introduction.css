@@ -133,7 +133,7 @@ button {
 
 #name1 {
   position: absolute;
-  width: 75px;
+  width: 85px;
   height: 25px;
   top: 0;
   left: 10%;
@@ -278,7 +278,7 @@ a:-webkit-any-link {
 
 .inmenu {
   width: 304px;
-  height: 250px;
+  height: 260px;
   border-radius: 13px;
   background-color: #636363;
   position: inherit;
