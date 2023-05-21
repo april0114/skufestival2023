@@ -4,10 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  font-family: 'BMJUA';
+}
 .bg_color {
   margin: 0 auto;
   background: #040c4b no-repeat center center fixed;
-  font-family: 'BMJUA';
 }
 .bg {
   position: relative;
@@ -26,12 +28,10 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  font-family: 'BMJUA';
 }
 .nav_button {
   height: 50px;
   color: #ffffff;
-  font-family: 'BMJUA';
   font-size: 0.8rem;
   font-weight: 500;
   background-color: transparent;
@@ -41,7 +41,6 @@
   border: none;
   cursor: pointer;
   transition: border-bottom 2s ease 0s;
-  font-family: 'BMJUA';
 }
 .booth_box{
     display: flex;
@@ -84,7 +83,6 @@ margin-right: 10px;
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.00938em;
-    font-family: 'BMJUA';
     text-align: center;
 }
 
@@ -210,7 +208,6 @@ margin-right: 10px;
   font-size: 16px;
   background: #C2E3BD;
   cursor: pointer;
-  font-family: 'BMJUA';
   transition: all 0.2s ease 0s;
   box-sizing: border-box;
 }
@@ -232,7 +229,6 @@ margin-right: 10px;
   font-size: 16px;
   color: #000000;
   cursor: pointer;
-  font-family: 'BMJUA';
 }
 
 .time_table_box {

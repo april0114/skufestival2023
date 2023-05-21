@@ -12,7 +12,6 @@
 .bg_color {
   margin: 0 auto;
   background: #040c4b;
-  font-family: 'BMJUA';
 }
 
 .bg {
@@ -34,13 +33,12 @@
   justify-content: center;
   align-items: center;
   min-height: 10vh;
-  font-family: 'BMJUA';
+
 }
 
 .nav_button {
   height: 50px;
   color: #ffffff;
-  font-family: 'BMJUA';
   font-size: 0.8rem;
   font-weight: 500;
   background-color: transparent;
@@ -133,7 +131,7 @@ button {
 
 #name1 {
   position: absolute;
-  width: 90px;
+  width: 95px;
   height: 25px;
   top: 0;
   left: 10%;
@@ -242,7 +240,6 @@ a:-webkit-any-link {
   height: 14px;
   top: 160px;
   left: 70%;
-  font-family: Inter;
   font-size: 13px;
   font-weight: bold;
   font-stretch: normal;
