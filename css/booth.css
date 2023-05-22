@@ -61,23 +61,25 @@
   vertical-align: baseline;
 }
 
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  
+  }
 
 .tab input[type=button] {
 	display: none;
   justify-content: center;
   align-items: center;
 }
-.tab {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: transparent;
 
-}
 .tab > * {
-margin-left: 10px;
-margin-right: 10px;
-}
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
 .section_box .tab > div {
     font-weight: 400;
     font-size: 15px;
@@ -91,8 +93,8 @@ margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  background:transparent;
+  color: white ;
+  background-color: transparent;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -109,7 +111,6 @@ margin-right: 10px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 30px;
   color: white;
 }
 
@@ -136,7 +137,6 @@ margin-right: 10px;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 30px;
   color: white;
 }
 
